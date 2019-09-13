@@ -1,0 +1,98 @@
+/* Code is uploaded your GitHub account under the folder: homework2 */
+
+
+body{
+  /* Lucida Grande font with a sans-serif fallback */
+  /* All text is “white” on a “black” background */
+  font-family: “Lucida Grande”,  sans-serif;
+  margin: 0
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+h1{
+  /* Header 1 is 64px, centered */
+  font-size: 64px;
+  text-align: center;
+}
+h2{
+  /* Header 2 is 32px, with “black” drop shadow that is offset 4px horizontally, 4px vertically, and 2px blur */
+  font-size: 32px;
+  text-shadow: 4px 4px 2px black;
+}
+p{
+  /* Paragraphs are 16px with 15px padding on the top only */
+  /* All text is “white” on a “black” background */
+  font-size: 16px;
+  padding-top: 15px;
+  background-color: black;
+  color: white;
+}
+img{
+  /* Images match the following styles: */
+  /* All images are on their own line */
+  /* All images are centered  */
+  /* All images are 550px wide with proper aspect ratio (they are not warped or stretched) */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  height: auto;
+}
+div{
+  /* All divs must be at least 100px tall (but will automatically be taller if needed) with 30px padding on all sides. */
+  min-height: 100px;
+  padding: 30px;
+}
+div[id="red"] {
+  /* Red div has the following styles: */
+  /* Background color is “red” */
+  /* Text is aligned on the right side  */
+  background-color: red;
+  text-align: right;
+}
+div[id="red"] p {
+  background-color: red;
+}
+div[id="blue"] {
+  /* Blue div has the following styles */
+  /* Background color is “blue” */
+  /* Text is aligned on the left side */
+  background-color: blue;
+  text-align: left;
+}
+div[id="blue"] p {
+  background-color: blue;
+}
+div[id="yellow"] {
+  /* Yellow div has the following styles */
+  /* Background color is “yellow” */
+  /* Text is aligned on the right side */
+  /* Header 2 and paragraph text is “black” */
+  /* Header 2 drop shadow is “grey” with the same parameters as above */
+  background-color: yellow;
+  text-align: right;
+}
+div[id="yellow"] h2 {
+  color: black;
+  text-shadow: 4px 4px 2px grey;
+}
+div[id="yellow"] p {
+  color: black;
+  background-color: yellow;
+}
+div[id="green"] {
+  /* Green div has the following styles */
+  /* Background color is “green” */
+  /* Text is aligned on the left side */
+  background-color: green;
+  text-align: left;
+}
+div[id="green"] p {
+    background-color: green;
+  }
+footer{
+  /* Footer text is centered with 15px padding on the bottom only */
+  padding-bottom: : 15px;
+  text-align: center;
+}
